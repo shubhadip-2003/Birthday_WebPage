@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="music" src="audio/birthday.mp3" preload="auto"></audio>
+  <div class="confetti" id="confetti"></div>
+
+  <section class="welcome" id="welcome">
+    <h1> Hey, Monu🎉</h1>
+    <p>Ready for your surprise?</p>
+    <button onclick="startSurprise()">Begin</button>
+  </section>
+
+  <section class="photos hidden" id="photos">
+    <div class="photo-wrapper">
+      <img src="images/photo1.jpg" class="photo hidden" />
+      <div class="overlay-text">🎂 Happy Birthday</div>
+    </div>
+    <div class="photo-wrapper">
+      <img src="images/photo2.jpg" class="photo hidden" />
+      <div class="overlay-text">🎂 Happy Birthday</div>
+    </div>
+    <div class="photo-wrapper">
+      <img src="images/photo3.jpg" class="photo hidden" />
+      <div class="overlay-text">🎂 Happy Birthday</div>
+    </div>
+    <div class="photo-wrapper">
+      <img src="images/photo4.jpg" class="photo hidden" />
+      <div class="overlay-text">🎂 Happy Birthday</div>
+    </div>
+  </section>
+
+  <section class="letter hidden" id="letter">
+    <div id="typed-text"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
